@@ -8,8 +8,18 @@
 import Foundation
 
 
+let numbers = [111, 325, 56, 10, 68, 860, 99, 105, 450]
+
 let timeComplexity = TimeComplexity()
-
-//let numbers = [1, 3, 56, 66, 68, 80, 99, 105, 450]
 //print(timeComplexity.logarithmicTime(value: 5, onArray: numbers))
+//print(timeComplexity.sumFromOne(n: 10000))
 
+let spaceComplexity = SpaceComplexity()
+//spaceComplexity.printSorted(onArray: numbers)
+//spaceComplexity.optimizationSorted(onArray: numbers)
+
+let swiftStandardLibarry = SwiftStandardLibarry()
+//swiftStandardLibarry.addPeopel()
+
+let stackOperation = StackContents()
+//stackOperation.exampleUserStack()

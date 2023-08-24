@@ -57,9 +57,12 @@ class TimeComplexity {
         return "该数组里面不包含这个数字"
     }
     
-    //优化logarithmicTime
-    //如果您正在检查数组中是否存在数字451，那么天真算法必须从头到尾迭代
-    //总共对数组中的九个值进行九次检查。然而，由于数组是排序的，您可以立即通过检查中间值来删除一半必要的比较
+    ///对数时间
+    ///O(log n)
+    ///优化logarithmicTime
+    ///你拥有的数据越多，减半效果的缩放就越多。
+    ///如果您正在检查数组中是否存在数字451，那么天真算法必须从头到尾迭代
+    ///总共对数组中的九个值进行九次检查。然而，由于数组是排序的，可以立即通过检查中间值来删除一半必要的比较
     func optimizationLogarithmicTime(value: Int, onArray: [Int] ) -> String {
         
         guard !onArray.isEmpty else { return "该数组里面不包含这个数字"}
@@ -80,6 +83,34 @@ class TimeComplexity {
         }
         
         return "该数组里面不包含这个数字"
+    }
+    
+    ///准线性时间。
+    ///O(nlog n)
+    ///准线性时间算法的性能比线性时间差，但明显优于二次时间
+    func quasilinearTime() {
+        //sort方法
+    }
+    
+    //比较时间复制度
+    ///时间复杂度是O(n)
+    func sumFromOne(n: Int) -> Int {
+        var result = 0
+        for i in 1...n {
+            result += i
+        }
+        return result
+    }
+    
+    ///将运行得更快，因为它从标准库调用编译的代码
+    ///O(n)
+    func optimizationSum(n: Int) -> Int {
+        (1...n).reduce(0, +)
+    }
+    
+    ///O(1)
+    func untilOptimizationSum(n: Int) -> Int {
+        ((n + 1) * n ) / 2
     }
     
     
