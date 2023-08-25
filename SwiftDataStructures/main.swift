@@ -9,6 +9,7 @@ import Foundation
 
 
 let numbers = [111, 325, 56, 10, 68, 860, 99, 105, 450]
+let testString = "h((e)llo(world)()"
 
 let timeComplexity = TimeComplexity()
 //print(timeComplexity.logarithmicTime(value: 5, onArray: numbers))
@@ -21,5 +22,11 @@ let spaceComplexity = SpaceComplexity()
 let swiftStandardLibarry = SwiftStandardLibarry()
 //swiftStandardLibarry.addPeopel()
 
-let stackOperation = StackContents()
+let stackOperation = StackContent()
 //stackOperation.exampleUserStack()
+//stackOperation.exampleInitArray()
+//stackOperation.exampleInitInt()
+
+let comprehensive = ComprehensiveCase()
+//comprehensive.printInReverse(onArray: numbers)
+print(comprehensive.checkParentheses(string: testString))

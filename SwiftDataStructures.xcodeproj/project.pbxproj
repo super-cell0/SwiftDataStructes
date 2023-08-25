@@ -10,6 +10,8 @@
 		0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509D2A974002001B4622 /* SpaceComplexity.swift */; };
 		042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */; };
 		042450A22A975453001B4622 /* StacksOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042450A12A975453001B4622 /* StacksOperations.swift */; };
+		04818F8D2A98F75A00C4BC70 /* ComprehensiveCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */; };
+		04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8E2A98F87200C4BC70 /* StackContent.swift */; };
 		04DDC71D2A97048E00707622 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC71C2A97048E00707622 /* main.swift */; };
 		04DDC7242A9704CD00707622 /* TimeComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC7232A9704CD00707622 /* TimeComplexity.swift */; };
 		04DDC7282A9707B100707622 /* FibonacciTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC7272A9707B100707622 /* FibonacciTest.swift */; };
@@ -31,6 +33,8 @@
 		0424509D2A974002001B4622 /* SpaceComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceComplexity.swift; sourceTree = "<group>"; };
 		0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStandardLibarry.swift; sourceTree = "<group>"; };
 		042450A12A975453001B4622 /* StacksOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksOperations.swift; sourceTree = "<group>"; };
+		04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveCase.swift; sourceTree = "<group>"; };
+		04818F8E2A98F87200C4BC70 /* StackContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContent.swift; sourceTree = "<group>"; };
 		04DDC7192A97048E00707622 /* SwiftDataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DDC71C2A97048E00707622 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04DDC7232A9704CD00707622 /* TimeComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComplexity.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				0424509D2A974002001B4622 /* SpaceComplexity.swift */,
 				0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */,
 				042450A12A975453001B4622 /* StacksOperations.swift */,
+				04818F8E2A98F87200C4BC70 /* StackContent.swift */,
+				04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */,
 			);
 			path = SwiftDataStructures;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 				042450A22A975453001B4622 /* StacksOperations.swift in Sources */,
 				042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */,
 				04DDC7282A9707B100707622 /* FibonacciTest.swift in Sources */,
+				04818F8D2A98F75A00C4BC70 /* ComprehensiveCase.swift in Sources */,
 				04DDC7242A9704CD00707622 /* TimeComplexity.swift in Sources */,
 				0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */,
+				04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */,
 				04DDC71D2A97048E00707622 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

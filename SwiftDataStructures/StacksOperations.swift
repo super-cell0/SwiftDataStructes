@@ -25,6 +25,10 @@ public struct Stack<Element> {
     private var storage: [Element] = []
     public init() { }
     
+    public init(element: [Element]) {
+        storage = element
+    }
+    
     public mutating func push(element: Element) {
         storage.append(element)
     }
@@ -56,22 +60,11 @@ extension Stack: CustomDebugStringConvertible {
 
 }
 
-
-class StackContents {
-    
-    func exampleUserStack() {
-        var stack = Stack<Int>()
-        stack.push(element: 1)
-        stack.push(element: 2)
-        stack.push(element: 3)
-        stack.push(element: 4)
-        
-        print(stack)
-        
-        if let poppedElement = stack.pop() {
-            assert(4 == poppedElement)
-            print("popped: \(poppedElement)")
-        }
+extension Stack: ExpressibleByArrayLiteral {
+    public init(arrayLiteral elements: Element...) {
+        storage = elements
     }
     
 }
+
+
