@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041378092AD134CA0003968D /* SwiftInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041378082AD134CA0003968D /* SwiftInheritance.swift */; };
+		0413780B2AD251B10003968D /* SwiftKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413780A2AD251B10003968D /* SwiftKeyPath.swift */; };
+		0413780D2AD253CC0003968D /* SwiftStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413780C2AD253CC0003968D /* SwiftStatic.swift */; };
+		0413780F2AD2EAC60003968D /* SwiftSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413780E2AD2EAC60003968D /* SwiftSingleton.swift */; };
+		041378112AD3F09D0003968D /* SwiftGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041378102AD3F09D0003968D /* SwiftGenerics.swift */; };
 		0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509D2A974002001B4622 /* SpaceComplexity.swift */; };
 		042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */; };
 		042450A22A975453001B4622 /* StacksOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042450A12A975453001B4622 /* StacksOperations.swift */; };
+		0428F02D2ACBBDC7008DCAAD /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F02C2ACBBDC7008DCAAD /* SwiftClass.swift */; };
+		0445C6392AA37C5C004BD0DA /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C6382AA37C5C004BD0DA /* LinkList.swift */; };
+		0445C63B2AA381C5004BD0DA /* CreateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C63A2AA381C5004BD0DA /* CreateNode.swift */; };
+		0445C63D2AA4895E004BD0DA /* TestLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C63C2AA4895E004BD0DA /* TestLinkList.swift */; };
+		046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D77012AB2C7C0009B8B5D /* CookbookString.swift */; };
 		04818F8D2A98F75A00C4BC70 /* ComprehensiveCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */; };
 		04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8E2A98F87200C4BC70 /* StackContent.swift */; };
+		049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049171C22AA876B700CFCA37 /* LeetCode01.swift */; };
+		04B6614D2AC67A66009B7457 /* SwiftSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6614C2AC67A66009B7457 /* SwiftSet.swift */; };
+		04B661542AC90B5A009B7457 /* SwiftCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B661532AC90B5A009B7457 /* SwiftCollection.swift */; };
+		04BCF7392AA8D0FC0038E357 /* AlgorithmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF7382AA8D0FC0038E357 /* AlgorithmList.swift */; };
+		04BCF73B2AA964E50038E357 /* SwiftAlgorithmClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF73A2AA964E50038E357 /* SwiftAlgorithmClub.swift */; };
 		04DDC71D2A97048E00707622 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC71C2A97048E00707622 /* main.swift */; };
 		04DDC7242A9704CD00707622 /* TimeComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC7232A9704CD00707622 /* TimeComplexity.swift */; };
 		04DDC7282A9707B100707622 /* FibonacciTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDC7272A9707B100707622 /* FibonacciTest.swift */; };
+		04F8F6462AB6015C00258F62 /* SwiftTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8F6452AB6015C00258F62 /* SwiftTuple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,15 +46,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041378082AD134CA0003968D /* SwiftInheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInheritance.swift; sourceTree = "<group>"; };
+		0413780A2AD251B10003968D /* SwiftKeyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeyPath.swift; sourceTree = "<group>"; };
+		0413780C2AD253CC0003968D /* SwiftStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStatic.swift; sourceTree = "<group>"; };
+		0413780E2AD2EAC60003968D /* SwiftSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSingleton.swift; sourceTree = "<group>"; };
+		041378102AD3F09D0003968D /* SwiftGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerics.swift; sourceTree = "<group>"; };
 		0424509D2A974002001B4622 /* SpaceComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceComplexity.swift; sourceTree = "<group>"; };
 		0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStandardLibarry.swift; sourceTree = "<group>"; };
 		042450A12A975453001B4622 /* StacksOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksOperations.swift; sourceTree = "<group>"; };
+		0428F02C2ACBBDC7008DCAAD /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		0445C6382AA37C5C004BD0DA /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		0445C63A2AA381C5004BD0DA /* CreateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNode.swift; sourceTree = "<group>"; };
+		0445C63C2AA4895E004BD0DA /* TestLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinkList.swift; sourceTree = "<group>"; };
+		046D77012AB2C7C0009B8B5D /* CookbookString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookString.swift; sourceTree = "<group>"; };
 		04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveCase.swift; sourceTree = "<group>"; };
 		04818F8E2A98F87200C4BC70 /* StackContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContent.swift; sourceTree = "<group>"; };
+		049171C22AA876B700CFCA37 /* LeetCode01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode01.swift; sourceTree = "<group>"; };
+		04B6614C2AC67A66009B7457 /* SwiftSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSet.swift; sourceTree = "<group>"; };
+		04B661532AC90B5A009B7457 /* SwiftCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCollection.swift; sourceTree = "<group>"; };
+		04BCF7382AA8D0FC0038E357 /* AlgorithmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmList.swift; sourceTree = "<group>"; };
+		04BCF73A2AA964E50038E357 /* SwiftAlgorithmClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmClub.swift; sourceTree = "<group>"; };
 		04DDC7192A97048E00707622 /* SwiftDataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DDC71C2A97048E00707622 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04DDC7232A9704CD00707622 /* TimeComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComplexity.swift; sourceTree = "<group>"; };
 		04DDC7272A9707B100707622 /* FibonacciTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTest.swift; sourceTree = "<group>"; };
+		04F8F6452AB6015C00258F62 /* SwiftTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTuple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0429E8202AAF614E0058ADA0 /* daily01 */ = {
+			isa = PBXGroup;
+			children = (
+				04DDC7272A9707B100707622 /* FibonacciTest.swift */,
+				04DDC7232A9704CD00707622 /* TimeComplexity.swift */,
+				0424509D2A974002001B4622 /* SpaceComplexity.swift */,
+				0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */,
+				042450A12A975453001B4622 /* StacksOperations.swift */,
+				04818F8E2A98F87200C4BC70 /* StackContent.swift */,
+				04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */,
+				0445C63A2AA381C5004BD0DA /* CreateNode.swift */,
+				0445C6382AA37C5C004BD0DA /* LinkList.swift */,
+				0445C63C2AA4895E004BD0DA /* TestLinkList.swift */,
+				04BCF7382AA8D0FC0038E357 /* AlgorithmList.swift */,
+				049171C22AA876B700CFCA37 /* LeetCode01.swift */,
+				04BCF73A2AA964E50038E357 /* SwiftAlgorithmClub.swift */,
+			);
+			path = daily01;
+			sourceTree = "<group>";
+		};
+		046D77002AB2C76C009B8B5D /* daily02 */ = {
+			isa = PBXGroup;
+			children = (
+				046D77012AB2C7C0009B8B5D /* CookbookString.swift */,
+				04F8F6452AB6015C00258F62 /* SwiftTuple.swift */,
+				04B6614C2AC67A66009B7457 /* SwiftSet.swift */,
+				04B661532AC90B5A009B7457 /* SwiftCollection.swift */,
+				0428F02C2ACBBDC7008DCAAD /* SwiftClass.swift */,
+				041378082AD134CA0003968D /* SwiftInheritance.swift */,
+				0413780A2AD251B10003968D /* SwiftKeyPath.swift */,
+				0413780C2AD253CC0003968D /* SwiftStatic.swift */,
+				0413780E2AD2EAC60003968D /* SwiftSingleton.swift */,
+				041378102AD3F09D0003968D /* SwiftGenerics.swift */,
+			);
+			path = daily02;
+			sourceTree = "<group>";
+		};
 		04DDC7102A97048E00707622 = {
 			isa = PBXGroup;
 			children = (
@@ -71,14 +140,9 @@
 		04DDC71B2A97048E00707622 /* SwiftDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				046D77002AB2C76C009B8B5D /* daily02 */,
+				0429E8202AAF614E0058ADA0 /* daily01 */,
 				04DDC71C2A97048E00707622 /* main.swift */,
-				04DDC7272A9707B100707622 /* FibonacciTest.swift */,
-				04DDC7232A9704CD00707622 /* TimeComplexity.swift */,
-				0424509D2A974002001B4622 /* SpaceComplexity.swift */,
-				0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */,
-				042450A12A975453001B4622 /* StacksOperations.swift */,
-				04818F8E2A98F87200C4BC70 /* StackContent.swift */,
-				04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */,
 			);
 			path = SwiftDataStructures;
 			sourceTree = "<group>";
@@ -111,7 +175,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					04DDC7182A97048E00707622 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -142,13 +206,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				042450A22A975453001B4622 /* StacksOperations.swift in Sources */,
+				0445C6392AA37C5C004BD0DA /* LinkList.swift in Sources */,
+				0413780F2AD2EAC60003968D /* SwiftSingleton.swift in Sources */,
+				04F8F6462AB6015C00258F62 /* SwiftTuple.swift in Sources */,
+				04B661542AC90B5A009B7457 /* SwiftCollection.swift in Sources */,
+				041378092AD134CA0003968D /* SwiftInheritance.swift in Sources */,
 				042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */,
+				04BCF7392AA8D0FC0038E357 /* AlgorithmList.swift in Sources */,
+				0413780D2AD253CC0003968D /* SwiftStatic.swift in Sources */,
+				0428F02D2ACBBDC7008DCAAD /* SwiftClass.swift in Sources */,
+				0445C63D2AA4895E004BD0DA /* TestLinkList.swift in Sources */,
+				041378112AD3F09D0003968D /* SwiftGenerics.swift in Sources */,
 				04DDC7282A9707B100707622 /* FibonacciTest.swift in Sources */,
 				04818F8D2A98F75A00C4BC70 /* ComprehensiveCase.swift in Sources */,
+				0445C63B2AA381C5004BD0DA /* CreateNode.swift in Sources */,
+				04B6614D2AC67A66009B7457 /* SwiftSet.swift in Sources */,
 				04DDC7242A9704CD00707622 /* TimeComplexity.swift in Sources */,
+				04BCF73B2AA964E50038E357 /* SwiftAlgorithmClub.swift in Sources */,
 				0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */,
+				049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */,
 				04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */,
+				046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */,
 				04DDC71D2A97048E00707622 /* main.swift in Sources */,
+				0413780B2AD251B10003968D /* SwiftKeyPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +268,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -248,9 +330,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -272,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7DR2VQYR3G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7DR2VQYR3G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
