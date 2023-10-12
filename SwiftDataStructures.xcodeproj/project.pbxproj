@@ -12,6 +12,9 @@
 		0413780D2AD253CC0003968D /* SwiftStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413780C2AD253CC0003968D /* SwiftStatic.swift */; };
 		0413780F2AD2EAC60003968D /* SwiftSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413780E2AD2EAC60003968D /* SwiftSingleton.swift */; };
 		041378112AD3F09D0003968D /* SwiftGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041378102AD3F09D0003968D /* SwiftGenerics.swift */; };
+		041713352AD67504006B9BC4 /* GenericSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041713342AD67504006B9BC4 /* GenericSubscript.swift */; };
+		041713392AD6E230006B9BC4 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041713382AD6E230006B9BC4 /* Metatype.swift */; };
+		0417133B2AD770CF006B9BC4 /* SwiftProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417133A2AD770CF006B9BC4 /* SwiftProtocol.swift */; };
 		0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509D2A974002001B4622 /* SpaceComplexity.swift */; };
 		042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */; };
 		042450A22A975453001B4622 /* StacksOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042450A12A975453001B4622 /* StacksOperations.swift */; };
@@ -51,6 +54,9 @@
 		0413780C2AD253CC0003968D /* SwiftStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStatic.swift; sourceTree = "<group>"; };
 		0413780E2AD2EAC60003968D /* SwiftSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSingleton.swift; sourceTree = "<group>"; };
 		041378102AD3F09D0003968D /* SwiftGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerics.swift; sourceTree = "<group>"; };
+		041713342AD67504006B9BC4 /* GenericSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSubscript.swift; sourceTree = "<group>"; };
+		041713382AD6E230006B9BC4 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
+		0417133A2AD770CF006B9BC4 /* SwiftProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProtocol.swift; sourceTree = "<group>"; };
 		0424509D2A974002001B4622 /* SpaceComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceComplexity.swift; sourceTree = "<group>"; };
 		0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStandardLibarry.swift; sourceTree = "<group>"; };
 		042450A12A975453001B4622 /* StacksOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksOperations.swift; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 				0413780C2AD253CC0003968D /* SwiftStatic.swift */,
 				0413780E2AD2EAC60003968D /* SwiftSingleton.swift */,
 				041378102AD3F09D0003968D /* SwiftGenerics.swift */,
+				041713342AD67504006B9BC4 /* GenericSubscript.swift */,
+				041713382AD6E230006B9BC4 /* Metatype.swift */,
+				0417133A2AD770CF006B9BC4 /* SwiftProtocol.swift */,
 			);
 			path = daily02;
 			sourceTree = "<group>";
@@ -225,8 +234,11 @@
 				04BCF73B2AA964E50038E357 /* SwiftAlgorithmClub.swift in Sources */,
 				0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */,
 				049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */,
+				041713392AD6E230006B9BC4 /* Metatype.swift in Sources */,
 				04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */,
+				0417133B2AD770CF006B9BC4 /* SwiftProtocol.swift in Sources */,
 				046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */,
+				041713352AD67504006B9BC4 /* GenericSubscript.swift in Sources */,
 				04DDC71D2A97048E00707622 /* main.swift in Sources */,
 				0413780B2AD251B10003968D /* SwiftKeyPath.swift in Sources */,
 			);

@@ -160,6 +160,7 @@ let distance = myPoint01.distance(point: myPoint)
 let myList = MyList(items: ["apple", "banana", "orange"])
 myList[1] = "mango"
 //print(myList.items)
+//print(myList[2])
 
 let myCar = Car(wheels: 4, weight: 1000, maxSpeed: 200, numberOfDoors: 4)
 //print(myCar.description())
@@ -218,3 +219,97 @@ stackInts.push(item: 89)
 
 let flight = Flight(flyingObject: Bird())
 //flight.flyingObject.fly()
+
+func popAndPrint<U: ContainerDemoDelegate>(container: inout U) {
+    for _ in 0..<container.itemCount {
+        print(container.pop())
+    }
+}
+
+var intStack = ContainerDemo<Int>()
+//intStack.append(item: 56)
+//intStack.append(item: 34)
+//intStack.append(item: 1)
+//popAndPrint(container: &intStack)
+
+//Where子句与Swift泛型一起使用
+func popAllAndTestMatch<C1: ContainerDemoDelegate, C2: ContainerDemoDelegate>(
+    someContainer: inout C1,
+    anotherContainer: inout C2 ) -> Bool where C1.Item == C2.Item, C1.Item: Equatable {
+        
+        //count
+        if someContainer.itemCount != anotherContainer.itemCount {
+            return false
+        }
+        //它通过一个循环从someContainer中pop出元素，并通过条件判断这些元素是否与anotherContainer中弹出的元素相同
+        for _ in 0..<someContainer.itemCount {
+            if someContainer.pop() != anotherContainer.pop() {
+                return false
+            }
+        }
+        
+        return true
+    }
+
+var stringDemo1 = ContainerDemo<String>()
+stringDemo1.append(item: "abc")
+stringDemo1.append(item: "dos")
+stringDemo1.append(item: "opopop")
+
+var stringDemo2 = ContainerDemo<String>()
+stringDemo2.append(item: "abc")
+stringDemo2.append(item: "dos")
+stringDemo2.append(item: "opop")
+
+//if popAllAndTestMatch(someContainer: &stringDemo1, anotherContainer: &stringDemo2) {
+//    print("所有项目都匹配")
+//} else {
+//    print("并非所有项目都匹配")
+//}
+
+var stackDemoThird =  StackDemoThird<String>()
+stackDemoThird.push(item: "abc")
+stackDemoThird.push(item: "one")
+stackDemoThird.push(item: "two")
+
+//print(stackDemoThird[[0, 2]])
+
+/*
+let numberArray = [1, 2, 3, 4, 5, 6]
+if let firstNum = numberArray.firstDemo(predicate: { $0 % 2 == 0}) {
+    print(firstNum)
+}
+
+let animals = ["zebra", "hamster", "dog", "cat", "anteater"]
+if let firstAnimalsChar = animals.firstDemo(predicate: { $0.count < 3 }) {
+    print(firstAnimalsChar)
+}
+ */
+
+let metaType01 = MetaTypeDemo01.self
+//使用元类型动态创建类的实例，访问类型级属性和方法
+let instance = metaType01.init()
+//instance.start()
+
+//将其类型指定为Vehicle.Type。仅访问协议中定义的功能，而不是汽车中定义的功能。
+let metaTypeCar: MetaTypeVehicle.Type = MateTypeCar.self
+//使用元类型创建类的实例
+let car = metaTypeCar.init()
+//调用实例的start()方法
+//car.start()
+
+
+func startDrivable(drivable: DriveableDelegate) {
+    drivable.start()
+}
+
+//startDrivable(drivable: CarDefinitionProtocol(speed: 9))
+
+let sportCarFuelEfficiency = SportCar.calculateFuelEfficiency(fuel: 50, distance: 500)
+//print(sportCarFuelEfficiency)
+let sedanFuelEfficiency = Sedan.calculateFuelEfficiency(fuel: 40, distance: 400)
+//print(sedanFuelEfficiency)
+
+let truck = Truck()
+truck.speed = 120
+truck.paint(color: "Pink")
