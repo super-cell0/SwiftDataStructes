@@ -311,5 +311,284 @@ let sedanFuelEfficiency = Sedan.calculateFuelEfficiency(fuel: 40, distance: 400)
 //print(sedanFuelEfficiency)
 
 let truck = Truck()
-truck.speed = 120
-truck.paint(color: "Pink")
+//truck.speed = 120
+//truck.paint(color: "Pink")
+
+let john = Persion(name: "John")
+let dog = Dog(name: "Spot")
+//print(john.sayHello())
+//print(dog.sayHello())
+
+let vehicles: [MovableDelegate] = [CarPOP(), TrainPOP()]
+//for mode in vehicles {
+//    mode.move()
+//}
+
+var intContainer = IntContainer()
+intContainer.add(item: 4)
+intContainer.add(item: 989)
+//print(intContainer.items)
+
+var stringContainer = StringContainer()
+stringContainer.add(item: "hello")
+stringContainer.add(item: "chen")
+//print(stringContainer.items)
+
+
+let myClassSecond1 = MyClassSecond(name: "A")
+let myClassSecond2 = MyClassSecond(name: "V")
+//print(myClassSecond1.isEqual(other: myClassSecond2))
+
+let student = Student()
+let school = School()
+school.delegate = student
+//school.startClass()
+//school.endClass()
+
+
+var myObject: MyClassThird? = MyClassThird(name: "object1")
+//myObject = nil
+
+
+//每个子对象都有一个对父对象的弱引用，由弱变量parent: parent？ 属性表示。
+//每个Parent对象都有一个对它的子对象的强引用，由var children: [Child]属性表示。
+var parent: Parent? = Parent(name: "Sandy")
+parent!.addChild(name: "chen")
+parent!.addChild(name: "zhang")
+parent!.addChild(name: "wang")
+
+//if let parent = parent {
+//    for mode in parent.children {
+//        let childName = mode.name
+//        print(childName)
+//    }
+//}
+
+var home: Home? = Home(address: "123 Main St")
+var chen: PersonSecond? = PersonSecond(name: "Chen", home: home!)
+//chen = nil
+//home = nil
+
+//var jediLight: Jedi? = Jedi()
+//print("Jedi Created")
+//print("第一次使用光剑")
+//let lightSaberColor = jediLight!.lightsaber.color
+//jediLight = nil
+
+//内存泄漏
+//var parentM: ParentMemory? = ParentMemory(name: "chen")
+//parentM!.addChild(name: "z")
+//parentM!.addChild(name: "f")
+//parentM = nil
+
+//var wizard: Wizard? = Wizard(name: "Harry Potter")
+////通过在捕获对对象的引用时使用weak关键字，闭包不再增加对象的引用计数，并且ARC可以解除对象的分配。
+//wizard?.spell = { [weak wizard] in
+//    print("\(wizard?.name ?? " ") casts Expelliarmus ")
+//}
+//wizard = nil
+
+
+
+let doCatch = DoCatch()
+//do {
+//    let result = try doCatch.doSomething()
+//    print(result)
+//} catch SimpleError.somethingWentWrong {
+//    print("Something went wrong")
+//} catch {
+//    print("Error: (otherError)")
+//}
+//
+
+let numbersClosure = [1, 2, 3, 4, 5]
+let swiftClosure = SwiftClosures()
+let squaredNumber = swiftClosure.operateOnArray(numbers: numbersClosure) {
+    return $0 * $0
+}
+//print(squaredNumber)
+
+//swiftClosure.demoClosure(a: 6)
+
+//var explorer: SpaceExplorer? = SpaceExplorer(name: "Neil Armstrong", currentPlanet: "Earth")
+//var missionControl: MissionControl? = MissionControl(explorer: explorer!)
+//explorer!.travelToPlanet(planet: "Moon")
+//explorer = nil
+//missionControl = nil
+
+
+//let swiftAutoClosure = SwiftAutoClosure()
+//print("start")
+//swiftAutoClosure.delayedPrint(message: "hello", delay: 2, closure: {
+//    print("323")
+//})
+//print(swiftAutoClosure.delayedPrint(message: "hello", delay: 2, closure: print("helloo")))
+
+let vector1 = Vector2D(x: 1, y: 2)
+let vector2 = Vector2D(x: 3, y: 4)
+let vector3 = vector1 + vector2
+//print(vector3)
+
+let person1 = SwiftEquableAndHashable(name: "chen", age: 30)
+let person2 = SwiftEquableAndHashable(name: "chen", age: 30)
+let person3 = SwiftEquableAndHashable(name: "liu", age: 20)
+//print(person1 == person2)
+//print(person2 == person3)
+let personDict = [person1: "uno", person3: "dos"]
+//print(personDict[person1]!)
+
+let point01 = Point01(x: 2, y: 3)
+let point02 = Point01(x: 6, y: 5)
+let point3 = point01 + point02
+//print(point3.x)
+
+let point001 = Point02(x: 1, y: 2)
+let point002 = Point02(x: 3, y: 4)
+let point003 = Point02(x: 1, y: 3)
+//print(point001 < point002)
+//print(point001 == point003)
+//print(point002 > point003)
+
+let matrix1 = Matrix(matrix: [[1, 3, 2], [3, 4, 5]])
+let matrix2 = Matrix(matrix: [[2, 0, 2], [1, 2, 4]])
+let matrix3 = matrix1 * matrix2
+//print(matrix3.matrix)
+
+let matrixSubscript = MatrixSubscirpt(matrix: [[1, 6], [3, 4]])
+//print(matrixSubscript[0, 1])
+matrixSubscript[1, 1] = 199
+//print(matrixSubscript.matrix)
+
+var lightSwitch = LightSwitch(on: true)
+//print(lightSwitch.on)
+//lightSwitch = !lightSwitch
+//print(lightSwitch.on)
+
+//
+//没有1，2这段代码在大多数情况下并不会报错。但是，如果需求是让 ! 运算符能够作用于 LightSwitch 对象的 on 属性，那么您需要像之前那样在类中定义一个前缀运算符函数。
+//如果不这样做1，2，那么 ! 运算符将会作用于 LightSwitch 对象本身，而不是其 on 属性。这可能会导致一些意想不到的结果，因为 ! 运算符通常用于逻辑否定，而不是对属性进行操作。
+//var lightSwitch = LightSwitch(on: true)
+//print(lightSwitch.on)
+//print(!lightSwitch.on)
+
+//
+//var intCounter = IntCounter(tag: 0)
+//let a = ++intCounter
+//print(a.tag)            //1
+//print(intCounter.tag)   //1
+//
+//let b = intCounter++
+//print(b.tag)           //2 引用同一个对象的内存地址。因此，对 intCounter 的修改会影响原始对象的值
+//print(intCounter.tag)  //2
+//
+//print("-------------------------")
+//
+////后缀递增操作符（++）应该是在现有值的基础上增加 1，而不是创建一个新的副本并增加 1
+////会创建一个新的副本，而不是引用原始结构体的内存地址。因此，对结构体的修改不会影响原始结构体的值
+//var counter = IntCounter01(count: 0)
+//let aa = ++counter
+//print(aa.count)       // 1
+//print(counter.count)  // 1
+//
+//let bb = counter++
+//print(bb.count)       // 1
+//print(counter.count)  // 2
+
+let left = OptionalSting(value: "hello")
+let right = OptionalSting(value: nil)
+let result01 = left ?? right
+//print(result01.value!)
+
+let left01 = BoolWrapper(true)
+let right01 = BoolWrapper(false)
+var result02 = left01 && right01
+//print(result02.value) // false
+//result02 = left01 || right01
+//print(result02.value) // true
+
+let library = [
+  Song(name: "Never Gonna Give You Up", artist: "Rick Astley"),
+  Movie(name: "The Matrix", director: "Wachowski"),
+  Song(name: "Smooth Criminal", artist: "Michael Jackson"),
+  Movie(name: "Inception", director: "Christopher Nolan"),
+  Song(name: "Billie Jean", artist: "Michael Jackson"),
+  Movie(name: "The Dark Knight", director: "Christopher Nolan"),
+]
+
+//可以使用as?操作员执行类型检查并将对象降格为特定类型。如果类型检查失败，表达式返回零
+//for item in library {
+//    if let movie = item as? Movie {
+//        print("Movie: \(movie.name), Director: \(movie.director)")
+//    } else if let song = item as? Song {
+//        print("Song: \(song.name), Artist: \(song.artist)")
+//    }
+//}
+
+let song = Song(name: "Shake it Off", artist: "Taylor Swift")
+let movie = Movie(name: "Avatar", director: "James Cameron")
+
+var library01 = [song, movie]
+
+//for item in library01 {
+//    if let mediaItem = item as? MediaItem {
+//        print("MediaItem name: \(mediaItem.name)")
+//    }
+//}
+
+let library02 = [
+    Movie(name: "Avatar", director: "James Cameron"),
+    Song(name: "Shake it Off", artist: "Taylor Swift")
+]
+
+//for item in library02 {
+//    if item is Song {
+//        print("this is song")
+//    } else if item is Movie {
+//        print("this is movie")
+//    }
+//}
+//
+
+//使用guard语句执行类型检查并将对象向下转换特定类型的示例
+//如果类型检查失败，则执行continue语句，循环的下一次迭代开始。如果类型检查成功，对象将降格为特定类型，并打印适当的消息。
+//for item in library02 {
+//    guard let song = item as? Song else { continue }
+//    print("Song: \(song.name), Artist: \(song.artist)")
+//}
+
+let anyDemo = AnyTypeCasting()
+//anyDemo.demoAny()
+
+let objectsArray: [AnyObject] = [CarAny(), SongAny(), CarAny()]
+//for item in objectsArray {
+//    if let car = item as? CarAny {
+//        print(car)
+//    } else if let song = item as? SongAny {
+//        print(song)
+//    } else {
+//        print("unknown type")
+//    }
+//}
+
+let codingDemo = CodingDemo()
+//codingDemo.demoCode()
+//codingDemo.DecodingJSON()
+
+let decodingDemo = DecodingDemo()
+//decodingDemo.decodingDemo()
+//decodingDemo.missingValues()
+
+
+let a = UseEquatable(name: "John Doe", age: 30)
+let b = UseEquatable(name: "Jane Doe", age: 25)
+let c = UseEquatable(name: "John Doe", age: 30)
+//print(a == b)
+//print(a == c)
+
+let human1 = UseHashable(firstName: "chen", lastName: "qingsong", age: 12)
+let human2 = UseHashable(firstName: "liu", lastName: "kexin", age: 22)
+
+var personDict1: [UseHashable: String] = [:]
+personDict1[human1] = "teacher"
+personDict1[human2] = "doctor"
+//print(personDict1.map {$0.value})
