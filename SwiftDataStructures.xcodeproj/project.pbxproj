@@ -25,6 +25,10 @@
 		0445C6392AA37C5C004BD0DA /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C6382AA37C5C004BD0DA /* LinkList.swift */; };
 		0445C63B2AA381C5004BD0DA /* CreateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C63A2AA381C5004BD0DA /* CreateNode.swift */; };
 		0445C63D2AA4895E004BD0DA /* TestLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C63C2AA4895E004BD0DA /* TestLinkList.swift */; };
+		04496BAE2AECA1C400F7AE6A /* UseComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BAD2AECA1C400F7AE6A /* UseComparable.swift */; };
+		04496BB02AECA80200F7AE6A /* UseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BAF2AECA80200F7AE6A /* UseCodable.swift */; };
+		04496BB22AECB59100F7AE6A /* UseSquence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BB12AECB59100F7AE6A /* UseSquence.swift */; };
+		04496BB42AED54F500F7AE6A /* UseIdentifiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */; };
 		046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D77012AB2C7C0009B8B5D /* CookbookString.swift */; };
 		04818F8D2A98F75A00C4BC70 /* ComprehensiveCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */; };
 		04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04818F8E2A98F87200C4BC70 /* StackContent.swift */; };
@@ -86,6 +90,10 @@
 		0445C6382AA37C5C004BD0DA /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		0445C63A2AA381C5004BD0DA /* CreateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNode.swift; sourceTree = "<group>"; };
 		0445C63C2AA4895E004BD0DA /* TestLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinkList.swift; sourceTree = "<group>"; };
+		04496BAD2AECA1C400F7AE6A /* UseComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseComparable.swift; sourceTree = "<group>"; };
+		04496BAF2AECA80200F7AE6A /* UseCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCodable.swift; sourceTree = "<group>"; };
+		04496BB12AECB59100F7AE6A /* UseSquence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSquence.swift; sourceTree = "<group>"; };
+		04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseIdentifiler.swift; sourceTree = "<group>"; };
 		046D77012AB2C7C0009B8B5D /* CookbookString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookString.swift; sourceTree = "<group>"; };
 		04818F8C2A98F75A00C4BC70 /* ComprehensiveCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveCase.swift; sourceTree = "<group>"; };
 		04818F8E2A98F87200C4BC70 /* StackContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContent.swift; sourceTree = "<group>"; };
@@ -183,6 +191,10 @@
 				043D96BE2AEB520900A82FED /* CodingAndDecoding.swift */,
 				043D96C02AEC0C3100A82FED /* UseEquatable.swift */,
 				043D96C22AEC132400A82FED /* UseHashable.swift */,
+				04496BAD2AECA1C400F7AE6A /* UseComparable.swift */,
+				04496BAF2AECA80200F7AE6A /* UseCodable.swift */,
+				04496BB12AECB59100F7AE6A /* UseSquence.swift */,
+				04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */,
 			);
 			path = daily02;
 			sourceTree = "<group>";
@@ -278,6 +290,7 @@
 				04F8F6462AB6015C00258F62 /* SwiftTuple.swift in Sources */,
 				04B661542AC90B5A009B7457 /* SwiftCollection.swift in Sources */,
 				041378092AD134CA0003968D /* SwiftInheritance.swift in Sources */,
+				04496BAE2AECA1C400F7AE6A /* UseComparable.swift in Sources */,
 				04B1A4192AE66963009FF008 /* DetectAndRepairMemoryLeaks.swift in Sources */,
 				042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */,
 				04BCF7392AA8D0FC0038E357 /* AlgorithmList.swift in Sources */,
@@ -301,9 +314,11 @@
 				04B1A41F2AE6ACF2009FF008 /* DoCatch.swift in Sources */,
 				04B1A4212AE6AE71009FF008 /* AccessControl .swift in Sources */,
 				04B1A4132AE635A8009FF008 /* SwiftWeakOrStrong.swift in Sources */,
+				04496BB42AED54F500F7AE6A /* UseIdentifiler.swift in Sources */,
 				0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */,
 				04B1A4172AE6531E009FF008 /* SwiftLazy.swift in Sources */,
 				049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */,
+				04496BB02AECA80200F7AE6A /* UseCodable.swift in Sources */,
 				04B1A41B2AE69F63009FF008 /* ARCClosures.swift in Sources */,
 				041713392AD6E230006B9BC4 /* Metatype.swift in Sources */,
 				04818F8F2A98F87200C4BC70 /* StackContent.swift in Sources */,
@@ -314,6 +329,7 @@
 				04D8E73E2AEAAD7E0070ABE9 /* AnyAndAnyObjectTypeCasting.swift in Sources */,
 				04B1A4232AE6B845009FF008 /* SwiftClosures.swift in Sources */,
 				041713352AD67504006B9BC4 /* GenericSubscript.swift in Sources */,
+				04496BB22AECB59100F7AE6A /* UseSquence.swift in Sources */,
 				04B1A4252AE7C6CB009FF008 /* EscapingClosure.swift in Sources */,
 				04DDC71D2A97048E00707622 /* main.swift in Sources */,
 				0413780B2AD251B10003968D /* SwiftKeyPath.swift in Sources */,

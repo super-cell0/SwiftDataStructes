@@ -592,3 +592,14 @@ var personDict1: [UseHashable: String] = [:]
 personDict1[human1] = "teacher"
 personDict1[human2] = "doctor"
 //print(personDict1.map {$0.value})
+
+let useComparable1 = UseComparable(firstName: "chen", lastName: "qingsong")
+let useComparable2 = UseComparable(firstName: "liu", lastName: "kexin")
+//print(useComparable1 < useComparable2)
+
+let useCodable = UseCodablePerson()
+//useCodable.useCodable()
+
+//for i in UseSquence(start: 0, end: 5) {
+//    print(i)
+//}
