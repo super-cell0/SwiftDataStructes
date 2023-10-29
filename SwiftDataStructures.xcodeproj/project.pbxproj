@@ -18,6 +18,8 @@
 		0424509E2A974002001B4622 /* SpaceComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509D2A974002001B4622 /* SpaceComplexity.swift */; };
 		042450A02A9749DA001B4622 /* SwiftStandardLibarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */; };
 		0428F02D2ACBBDC7008DCAAD /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F02C2ACBBDC7008DCAAD /* SwiftClass.swift */; };
+		0431596D2AEE6B0D0014164E /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431596C2AEE6B0D0014164E /* Stacks.swift */; };
+		0431596F2AEEA4340014164E /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431596E2AEEA4340014164E /* LinkedLists.swift */; };
 		043D96BF2AEB520900A82FED /* CodingAndDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D96BE2AEB520900A82FED /* CodingAndDecoding.swift */; };
 		043D96C12AEC0C3100A82FED /* UseEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D96C02AEC0C3100A82FED /* UseEquatable.swift */; };
 		043D96C32AEC132400A82FED /* UseHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D96C22AEC132400A82FED /* UseHashable.swift */; };
@@ -78,6 +80,8 @@
 		0424509D2A974002001B4622 /* SpaceComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceComplexity.swift; sourceTree = "<group>"; };
 		0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStandardLibarry.swift; sourceTree = "<group>"; };
 		0428F02C2ACBBDC7008DCAAD /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		0431596C2AEE6B0D0014164E /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		0431596E2AEEA4340014164E /* LinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
 		043D96BE2AEB520900A82FED /* CodingAndDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingAndDecoding.swift; sourceTree = "<group>"; };
 		043D96C02AEC0C3100A82FED /* UseEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseEquatable.swift; sourceTree = "<group>"; };
 		043D96C22AEC132400A82FED /* UseHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseHashable.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				0424509D2A974002001B4622 /* SpaceComplexity.swift */,
 				0424509F2A9749DA001B4622 /* SwiftStandardLibarry.swift */,
 				0445C63C2AA4895E004BD0DA /* TestLinkList.swift */,
+				0431596C2AEE6B0D0014164E /* Stacks.swift */,
+				0431596E2AEEA4340014164E /* LinkedLists.swift */,
 			);
 			path = daily01;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 				04B1A4172AE6531E009FF008 /* SwiftLazy.swift in Sources */,
 				049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */,
 				04496BB02AECA80200F7AE6A /* UseCodable.swift in Sources */,
+				0431596D2AEE6B0D0014164E /* Stacks.swift in Sources */,
 				04B1A41B2AE69F63009FF008 /* ARCClosures.swift in Sources */,
+				0431596F2AEEA4340014164E /* LinkedLists.swift in Sources */,
 				041713392AD6E230006B9BC4 /* Metatype.swift in Sources */,
 				0417133B2AD770CF006B9BC4 /* SwiftProtocol.swift in Sources */,
 				046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */,
