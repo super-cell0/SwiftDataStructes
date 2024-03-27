@@ -30,6 +30,7 @@
 		04496BB42AED54F500F7AE6A /* UseIdentifiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */; };
 		046D77022AB2C7C0009B8B5D /* CookbookString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D77012AB2C7C0009B8B5D /* CookbookString.swift */; };
 		049171C32AA876B700CFCA37 /* LeetCode01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049171C22AA876B700CFCA37 /* LeetCode01.swift */; };
+		04A4A7F22AFD133C0077CD8D /* Expert01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4A7F12AFD133C0077CD8D /* Expert01.swift */; };
 		04B1A4112AE63392009FF008 /* MemoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A4102AE63392009FF008 /* MemoryManagement.swift */; };
 		04B1A4132AE635A8009FF008 /* SwiftWeakOrStrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A4122AE635A8009FF008 /* SwiftWeakOrStrong.swift */; };
 		04B1A4152AE650B1009FF008 /* SwiftUnowned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A4142AE650B1009FF008 /* SwiftUnowned.swift */; };
@@ -92,6 +93,7 @@
 		04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseIdentifiler.swift; sourceTree = "<group>"; };
 		046D77012AB2C7C0009B8B5D /* CookbookString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookString.swift; sourceTree = "<group>"; };
 		049171C22AA876B700CFCA37 /* LeetCode01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode01.swift; sourceTree = "<group>"; };
+		04A4A7F12AFD133C0077CD8D /* Expert01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expert01.swift; sourceTree = "<group>"; };
 		04B1A4102AE63392009FF008 /* MemoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagement.swift; sourceTree = "<group>"; };
 		04B1A4122AE635A8009FF008 /* SwiftWeakOrStrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWeakOrStrong.swift; sourceTree = "<group>"; };
 		04B1A4142AE650B1009FF008 /* SwiftUnowned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUnowned.swift; sourceTree = "<group>"; };
@@ -130,7 +132,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0429E8202AAF614E0058ADA0 /* daily01 */ = {
+		0429E8202AAF614E0058ADA0 /* datastructureBook */ = {
 			isa = PBXGroup;
 			children = (
 				04DDC7232A9704CD00707622 /* TimeComplexity.swift */,
@@ -140,21 +142,21 @@
 				0431596C2AEE6B0D0014164E /* Stacks.swift */,
 				0431596E2AEEA4340014164E /* LinkedLists.swift */,
 			);
-			path = daily01;
+			path = datastructureBook;
 			sourceTree = "<group>";
 		};
-		0431596B2AEE3F0E0014164E /* daily03 */ = {
+		0431596B2AEE3F0E0014164E /* other */ = {
 			isa = PBXGroup;
 			children = (
-				04DDC7272A9707B100707622 /* FibonacciTest.swift */,
 				049171C22AA876B700CFCA37 /* LeetCode01.swift */,
+				04DDC7272A9707B100707622 /* FibonacciTest.swift */,
 				04BCF7382AA8D0FC0038E357 /* AlgorithmList.swift */,
 				04BCF73A2AA964E50038E357 /* SwiftAlgorithmClub.swift */,
 			);
-			path = daily03;
+			path = other;
 			sourceTree = "<group>";
 		};
-		046D77002AB2C76C009B8B5D /* daily02 */ = {
+		046D77002AB2C76C009B8B5D /* swiftCookbook */ = {
 			isa = PBXGroup;
 			children = (
 				046D77012AB2C7C0009B8B5D /* CookbookString.swift */,
@@ -194,7 +196,15 @@
 				04496BB12AECB59100F7AE6A /* UseSquence.swift */,
 				04496BB32AED54F500F7AE6A /* UseIdentifiler.swift */,
 			);
-			path = daily02;
+			path = swiftCookbook;
+			sourceTree = "<group>";
+		};
+		04A4A7F02AFD11FC0077CD8D /* ExpertSwift */ = {
+			isa = PBXGroup;
+			children = (
+				04A4A7F12AFD133C0077CD8D /* Expert01.swift */,
+			);
+			path = ExpertSwift;
 			sourceTree = "<group>";
 		};
 		04DDC7102A97048E00707622 = {
@@ -216,10 +226,11 @@
 		04DDC71B2A97048E00707622 /* SwiftDataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				0431596B2AEE3F0E0014164E /* daily03 */,
-				046D77002AB2C76C009B8B5D /* daily02 */,
-				0429E8202AAF614E0058ADA0 /* daily01 */,
 				04DDC71C2A97048E00707622 /* main.swift */,
+				04A4A7F02AFD11FC0077CD8D /* ExpertSwift */,
+				0431596B2AEE3F0E0014164E /* other */,
+				046D77002AB2C76C009B8B5D /* swiftCookbook */,
+				0429E8202AAF614E0058ADA0 /* datastructureBook */,
 			);
 			path = SwiftDataStructures;
 			sourceTree = "<group>";
@@ -316,6 +327,7 @@
 				04496BB02AECA80200F7AE6A /* UseCodable.swift in Sources */,
 				0431596D2AEE6B0D0014164E /* Stacks.swift in Sources */,
 				04B1A41B2AE69F63009FF008 /* ARCClosures.swift in Sources */,
+				04A4A7F22AFD133C0077CD8D /* Expert01.swift in Sources */,
 				0431596F2AEEA4340014164E /* LinkedLists.swift in Sources */,
 				041713392AD6E230006B9BC4 /* Metatype.swift in Sources */,
 				0417133B2AD770CF006B9BC4 /* SwiftProtocol.swift in Sources */,
